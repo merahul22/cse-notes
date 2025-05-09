@@ -11,12 +11,14 @@
             "id": "4c0e71ada422369d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Assets/Pasted image 20250504083951.png"
+                "file": "Pattern/Analytical.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250504083951"
+              "icon": "lucide-file",
+              "title": "Analytical"
             }
           }
         ]
@@ -167,21 +169,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3de6fc48b59c6010",
+  "active": "4c0e71ada422369d",
   "lastOpenFiles": [
-    "Assets/Pasted image 20250504122230.jpg",
+    "FOM/chap-4.md",
+    "Pattern/Analytical.md",
+    "Pattern",
+    "FOM/CHAP-3 -- Financial Management.md",
     "Assets/Pasted image 20250504083951.png",
+    "Assets/Pasted image 20250504122230.jpg",
     "Assets/Pasted image 20250504083108.jpg",
     "PPE/QuestionBank.md",
     "FOM/chap-5.md",
-    "FOM/CHAP-3 -- Financial Management.md",
     "Assets/Pasted image 20250504082130.jpg",
     "Assets",
     "FOM.md",
     "safetynhazard/Safety And Hazard -after midsem.md",
     "safetynhazard",
     "PPE",
-    "FOM/chap-4.md",
     "FOM",
     "Assets/Pasted image 20250504124814.png",
     "Assets/Pasted image 20250504123711.png",
