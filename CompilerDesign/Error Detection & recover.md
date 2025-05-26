@@ -1,4 +1,4 @@
-# Error Detection and Recovery
+1# Error Detection and Recovery
 
 ## Features of an Error Reporter
 

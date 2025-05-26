@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompilerDesign/Compiler Design.md",
+                "file": "OS/Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Compiler Design"
+              "title": "Basics"
             }
           }
         ],
@@ -242,22 +242,35 @@
   },
   "active": "e1d1e388e174f942",
   "lastOpenFiles": [
-    "CompilerDesign/Compiler Design.md",
-    "CompilerDesign/Error Detection & recover.md",
+    "Assets/Types8os.webp",
+    "Assets/types-7-(1)os.webp",
+    "Assets/Types-of-OS-04os.webp",
+    "Assets/Capture2210os.png",
+    "Assets/Types-of-OS-02-660os.webp",
+    "Assets/Types-of-OS-01os.webp",
+    "Assets/Types-of-OS-03-660os.webp",
+    "Assets/types1-(1)os.webp",
+    "Assets/Protection-and-Securityos.webp",
+    "Assets/Device-Managementos.webp",
+    "Assets/File-System-Managementos.webp",
     "CompilerDesign/Symbol Table.md",
-    "ErrorDetection&recoverCD.pdf",
-    "CompilerDesign/Untitled.md",
+    "OS/Basics.md",
+    "OS",
     "SymbolTableCD.pdf",
-    "CompilerDesign/Code Optimization.md",
+    "Midsem-Theory.pdf",
+    "midsem-numerical.pdf",
+    "ErrorDetection&recoverCD.pdf",
     "Code Optimization.pdf",
+    "CompilerDesign/Error Detection & recover.md",
+    "CompilerDesign/Code Optimization.md",
+    "CompilerDesign/Compiler Design.md",
+    "CompilerDesign/Untitled.md",
     "Pattern/Analytical.md",
     "FOM/CHAP-3 -- Financial Management.md",
     "CompilerDesign",
-    "midsem-numerical.pdf",
     "Pattern/midsem-numerical.md",
     "Pattern/Midsem-Theory.md",
     "Pattern/Numerical.md",
-    "Midsem-Theory.pdf",
     "Numericalpattern.pdf",
     "Analytical.pdf",
     "safetynhazard/Safety And Hazard -midsem.md",
@@ -265,18 +278,7 @@
     "PPE/QuestionBank.md",
     "PPE/Power Plant Engineering.pdf",
     "FOM/chap-4.md",
-    "Pattern",
-    "Assets/Pasted image 20250504083951.png",
-    "Assets/Pasted image 20250504122230.jpg",
-    "Assets/Pasted image 20250504083108.jpg",
     "FOM/chap-5.md",
-    "Assets/Pasted image 20250504082130.jpg",
-    "FOM.md",
-    "Assets/Pasted image 20250504124814.png",
-    "Assets/Pasted image 20250504123711.png",
-    "Assets/Pasted image 20250504122205.jpg",
-    "Assets/Pasted image 20250504084254.png",
-    "Assets/difference-between-fire-tube-and-water-tube-e1561138774247.webp",
-    "Assets/Pasted image 20250504124829.png"
+    "FOM.md"
   ]
 }
