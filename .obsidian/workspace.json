@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Basics.md",
+                "file": "python/Time Complexity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basics"
+              "title": "Time Complexity"
             }
           }
         ],
@@ -242,6 +242,14 @@
   },
   "active": "e1d1e388e174f942",
   "lastOpenFiles": [
+    "python/Functions.md",
+    "python/Time Complexity.md",
+    "python/Dictionary.md",
+    "python/Set.md",
+    "python/Tuple.md",
+    "python/List.md",
+    "OS/Basics.md",
+    "python",
     "Assets/Types8os.webp",
     "Assets/types-7-(1)os.webp",
     "Assets/Types-of-OS-04os.webp",
@@ -252,9 +260,7 @@
     "Assets/types1-(1)os.webp",
     "Assets/Protection-and-Securityos.webp",
     "Assets/Device-Managementos.webp",
-    "Assets/File-System-Managementos.webp",
     "CompilerDesign/Symbol Table.md",
-    "OS/Basics.md",
     "OS",
     "SymbolTableCD.pdf",
     "Midsem-Theory.pdf",
@@ -276,7 +282,6 @@
     "safetynhazard/Safety And Hazard -midsem.md",
     "safetynhazard/Untitled.md",
     "PPE/QuestionBank.md",
-    "PPE/Power Plant Engineering.pdf",
     "FOM/chap-4.md",
     "FOM/chap-5.md",
     "FOM.md"
