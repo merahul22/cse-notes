@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Time Complexity.md",
+                "file": "python/Namespace & Decorator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Time Complexity"
+              "title": "Namespace & Decorator"
             }
           }
         ],
@@ -242,8 +242,12 @@
   },
   "active": "e1d1e388e174f942",
   "lastOpenFiles": [
-    "python/Functions.md",
+    "python/Exceptions Handling.md",
+    "python/Namespace & Decorator.md",
+    "python/File Handling.md",
+    "python/OOP-object oriented programming.md",
     "python/Time Complexity.md",
+    "python/Functions.md",
     "python/Dictionary.md",
     "python/Set.md",
     "python/Tuple.md",
@@ -283,7 +287,6 @@
     "safetynhazard/Untitled.md",
     "PPE/QuestionBank.md",
     "FOM/chap-4.md",
-    "FOM/chap-5.md",
-    "FOM.md"
+    "FOM/chap-5.md"
   ]
 }
