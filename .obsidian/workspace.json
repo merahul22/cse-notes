@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/Iterator and Generator.md",
+                "file": "python/Pandas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Iterator and Generator"
+              "title": "Pandas"
             }
           }
         ],
@@ -242,8 +242,10 @@
   },
   "active": "e1d1e388e174f942",
   "lastOpenFiles": [
-    "python/Namespace & Decorator.md",
+    "python/Numpy.md",
+    "python/Pandas.md",
     "python/Iterator and Generator.md",
+    "python/Namespace & Decorator.md",
     "python/Exceptions Handling.md",
     "python/File Handling.md",
     "python/OOP-object oriented programming.md",
@@ -285,8 +287,6 @@
     "Numericalpattern.pdf",
     "Analytical.pdf",
     "safetynhazard/Safety And Hazard -midsem.md",
-    "safetynhazard/Untitled.md",
-    "PPE/QuestionBank.md",
-    "FOM/chap-4.md"
+    "safetynhazard/Untitled.md"
   ]
 }
