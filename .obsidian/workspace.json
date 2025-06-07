@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "Pandas"
             }
+          },
+          {
+            "id": "ddf571722ae7c24f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python/Git And Github.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git And Github"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -240,10 +254,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e1d1e388e174f942",
+  "active": "3de6fc48b59c6010",
   "lastOpenFiles": [
-    "safetynhazard/Safety And Hazard -midsem.md",
     "python/Pandas.md",
+    "python/Git And Github.md",
+    "safetynhazard/Safety And Hazard -midsem.md",
     "python/Tuple.md",
     "python/Numpy.md",
     "python/Iterator and Generator.md",
@@ -286,7 +301,6 @@
     "Pattern/Midsem-Theory.md",
     "Pattern/Numerical.md",
     "Numericalpattern.pdf",
-    "Analytical.pdf",
-    "safetynhazard/Untitled.md"
+    "Analytical.pdf"
   ]
 }
