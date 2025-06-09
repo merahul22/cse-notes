@@ -684,5 +684,212 @@ df1.set_index('ID').join(df2.set_index('ID'))
     - Monthly sales (concat)
         
     - Department lookup tables (merge)
-        
+
+
+## 🧠 1. What is a MultiIndex?
+
+A **MultiIndex** allows multiple levels of indexing (hierarchical indexing) on Series or DataFrames. This is useful for working with complex, multi-dimensional data.
+
+---
+
+## 📘 2. MultiIndex in Series
+
+### 🔹 Creating a MultiIndex Series
+
+```python
+import pandas as pd
+
+index = pd.MultiIndex.from_tuples(
+    [('A', 2020), ('A', 2021), ('B', 2020), ('B', 2021)],
+    names=['Company', 'Year']
+)
+data = pd.Series([100, 120, 90, 110], index=index)
+print(data)
+```
+
+### 🔹 Accessing Elements
+
+```python
+data['A']
+data.loc[('A', 2020)]
+```
+
+---
+
+## 📗 3. MultiIndex in DataFrame
+
+### 🔹 Creating a MultiIndex DataFrame
+
+```python
+arrays = [
+    ['Math', 'Math', 'English', 'English'],
+    ['Test1', 'Test2', 'Test1', 'Test2']
+]
+index = pd.MultiIndex.from_arrays(arrays, names=['Subject', 'Test'])
+
+df = pd.DataFrame([[85, 90, 78, 80], [88, 92, 74, 82]],
+                  index=['Alice', 'Bob'],
+                  columns=index)
+
+print(df)
+```
+
+### 🔹 Accessing Columns and Rows
+
+```python
+# Access all English scores
+df['English']
+
+# Access Bob's Test2 scores in Math
+df.loc['Bob', ('Math', 'Test2')]
+```
+
+---
+
+## 🔄 4. Stacking & Unstacking
+
+### 🔹 `stack()` – Columns → Index
+
+```python
+stacked = df.stack()  # Stack last level by default
+print(stacked)
+```
+
+### 🔹 `unstack()` – Index → Columns
+
+```python
+unstacked = stacked.unstack()
+```
+
+### 🔹 Specifying Level
+
+```python
+df.stack(level=0)  # Stack first column level
+```
+
+---
+
+## 🧪 5. Working with MultiIndexed DataFrames
+
+### 🔹 Accessing by Level Name
+
+```python
+df.loc[:, ('Math', slice(None))]   # All Math tests
+df.loc[:, pd.IndexSlice['Math', :]]
+```
+
+### 🔹 Swapping and Sorting Index Levels
+
+```python
+# Swap levels
+df.columns = df.columns.swaplevel()
+
+# Sort index
+df = df.sort_index(axis=1)
+```
+
+### 🔹 Setting and Resetting Index
+
+```python
+df_reset = df.reset_index()
+df_new = df_reset.set_index(['Subject', 'Test'])
+```
+
+---
+
+## 🔁 6. Transpose with MultiIndex
+
+```python
+df_T = df.T  # Transpose rows ↔ columns
+print(df_T.index.names)  # ['Subject', 'Test']
+```
+
+Useful when comparing student-wise vs test-wise results.
+
+---
+
+## ↔️ 7. Long vs Wide Format
+
+### 🔹 Wide Format
+
+Each variable gets a column. (Default DataFrame style)
+
+### 🔹 Long Format with `melt()`
+
+```python
+df_long = df_reset.melt(id_vars='index', var_name=['Subject', 'Test'], value_name='Score')
+```
+
+Or if from a non-multiindex DF:
+
+```python
+df_long = pd.melt(df, id_vars=['Student'], var_name='Subject_Test', value_name='Score')
+```
+
+---
+
+## 📊 8. Pivot & Pivot Table
+
+### 🔹 `pivot()`
+
+Rearranges data without aggregation.
+
+```python
+df = pd.DataFrame({
+    'Name': ['Alice', 'Bob', 'Alice', 'Bob'],
+    'Subject': ['Math', 'Math', 'English', 'English'],
+    'Score': [90, 85, 95, 80]
+})
+df.pivot(index='Name', columns='Subject', values='Score')
+```
+
+### 🔹 `pivot_table()`
+
+Supports aggregation like mean, sum, etc.
+
+```python
+df.pivot_table(index='Name', columns='Subject', values='Score', aggfunc='mean')
+```
+
+Use `margins=True` to show totals.
+
+---
+
+## 💡 9. Other Tips You Should Know
+
+### 🔸 `xs()` – Cross Section (slicing one level)
+
+```python
+data.xs(key='A', level='Company')  # Get all years for A
+df.xs('Math', axis=1, level=0)     # Get all Math tests
+```
+
+### 🔸 `groupby()` with MultiIndex
+
+```python
+df_reset.groupby(['Subject', 'Test'])['Score'].mean()
+```
+
+### 🔸 Rename Levels
+
+```python
+df.columns.names = ['Subject', 'Test']
+df.index.names = ['Student']
+```
+
+---
+
+## 📚 Summary Table
+
+|Feature|Method/Function|Use Case|
+|---|---|---|
+|MultiIndex|`pd.MultiIndex.from_*`|Create hierarchical index|
+|Stack|`.stack(level=)`|Collapse column → index|
+|Unstack|`.unstack(level=)`|Expand index → column|
+|Cross Section|`.xs()`|Slice using level value|
+|Long Format|`pd.melt()`|Normalize data into long form|
+|Wide Format|`pivot()`|Spread data across columns|
+|Aggregated Pivot|`pivot_table()`|Same as pivot + aggregation|
+|Index tools|`swaplevel`, `sort_index`, `set_index`, `reset_index`|Manipulate multi-index|
+
 
