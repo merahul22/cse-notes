@@ -667,23 +667,7 @@ df1.set_index('ID').join(df2.set_index('ID'))
 
 ---
 
-## ✅ Final Tips for Teaching
 
-- Emphasize that:
-    
-    - `concat()` is like stacking.
-        
-    - `merge()` is like SQL joins.
-        
-    - `join()` is a convenience for index-based joins.
-        
-- Use real-life examples:
-    
-    - Student data (IDs, marks, department)
-        
-    - Monthly sales (concat)
-        
-    - Department lookup tables (merge)
 
 
 ## 🧠 1. What is a MultiIndex?
@@ -881,15 +865,13 @@ df.index.names = ['Student']
 
 ## 📚 Summary Table
 
-|Feature|Method/Function|Use Case|
-|---|---|---|
-|MultiIndex|`pd.MultiIndex.from_*`|Create hierarchical index|
-|Stack|`.stack(level=)`|Collapse column → index|
-|Unstack|`.unstack(level=)`|Expand index → column|
-|Cross Section|`.xs()`|Slice using level value|
-|Long Format|`pd.melt()`|Normalize data into long form|
-|Wide Format|`pivot()`|Spread data across columns|
-|Aggregated Pivot|`pivot_table()`|Same as pivot + aggregation|
-|Index tools|`swaplevel`, `sort_index`, `set_index`, `reset_index`|Manipulate multi-index|
-
-
+| Feature          | Method/Function                                       | Use Case                      |
+| ---------------- | ----------------------------------------------------- | ----------------------------- |
+| MultiIndex       | `pd.MultiIndex.from_*`                                | Create hierarchical index     |
+| Stack            | `.stack(level=)`                                      | Collapse column → index       |
+| Unstack          | `.unstack(level=)`                                    | Expand index → column         |
+| Cross Section    | `.xs()`                                               | Slice using level value       |
+| Long Format      | `pd.melt()`                                           | Normalize data into long form |
+| Wide Format      | `pivot()`                                             | Spread data across columns    |
+| Aggregated Pivot | `pivot_table()`                                       | Same as pivot + aggregation   |
+| Index tools      | `swaplevel`, `sort_index`, `set_index`, `reset_index` | Manipulate multi-index        |
