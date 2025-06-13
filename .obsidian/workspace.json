@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/DATA analysis/ETL.md",
+                "file": "python/DATA analysis/EDA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ETL"
+              "title": "EDA"
             }
           }
         ],
@@ -256,8 +256,9 @@
   },
   "active": "ddf571722ae7c24f",
   "lastOpenFiles": [
-    "python/DATA analysis/Data assessing and cleaning.md",
     "python/DATA analysis/ETL.md",
+    "python/DATA analysis/EDA.md",
+    "python/DATA analysis/Data assessing and cleaning.md",
     "python/DATA analysis/Scrapping-beautifulsoup.md",
     "python/DATA analysis/Export.md",
     "python/DATA analysis/From Json and sql.md",
@@ -283,7 +284,6 @@
     "python/File Handling.md",
     "python/OOP-object oriented programming.md",
     "python/Time Complexity.md",
-    "python/Functions.md",
     "python",
     "Assets/Types8os.webp",
     "Assets/types-7-(1)os.webp",
