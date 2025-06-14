@@ -95,14 +95,10 @@
             "id": "ddf571722ae7c24f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python/DATA analysis/EDA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "EDA"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -256,8 +252,21 @@
   },
   "active": "ddf571722ae7c24f",
   "lastOpenFiles": [
-    "python/DATA analysis/ETL.md",
+    "python/DATA analysis/Data analysis.md",
+    "SQL/SQL.md",
+    "SQL/BASICS.md",
+    "SQL/Installations.md",
+    "SQL/DDL-.md",
+    "python/Python.md",
+    "CompilerDesign/Compiler Design.md",
+    "CompilerDesign/Symbol Table.md",
+    "CompilerDesign/Code Optimization.md",
+    "CompilerDesign/Error Detection & recover.md",
+    "CompilerDesign/Untitled.md",
+    "Advance Pandas.pdf",
     "python/DATA analysis/EDA.md",
+    "SQL",
+    "python/DATA analysis/ETL.md",
     "python/DATA analysis/Data assessing and cleaning.md",
     "python/DATA analysis/Scrapping-beautifulsoup.md",
     "python/DATA analysis/Export.md",
@@ -267,23 +276,11 @@
     "python/Dictionary.md",
     "python/DATA analysis",
     "python/Advance Pandas.md",
-    "Advance Pandas.pdf",
     "python/Pandas.md",
-    "CompilerDesign/Untitled.md",
-    "CompilerDesign/Code Optimization.md",
-    "CompilerDesign/Compiler Design.md",
-    "CompilerDesign/Error Detection & recover.md",
-    "CompilerDesign/Symbol Table.md",
     "python/Git And Github.md",
     "safetynhazard/Safety And Hazard -midsem.md",
     "python/Tuple.md",
     "python/Numpy.md",
-    "python/Iterator and Generator.md",
-    "python/Namespace & Decorator.md",
-    "python/Exceptions Handling.md",
-    "python/File Handling.md",
-    "python/OOP-object oriented programming.md",
-    "python/Time Complexity.md",
     "python",
     "Assets/Types8os.webp",
     "Assets/types-7-(1)os.webp",
@@ -300,7 +297,6 @@
     "Midsem-Theory.pdf",
     "midsem-numerical.pdf",
     "ErrorDetection&recoverCD.pdf",
-    "Code Optimization.pdf",
-    "CompilerDesign"
+    "Code Optimization.pdf"
   ]
 }

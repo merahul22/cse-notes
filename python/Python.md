@@ -1,0 +1,17 @@
+
+1)  list - [[List]]
+2) set -[[Set]]
+3) dictionary- [[Dictionary]]
+4) tuple-[[Tuple]]
+5) time complexity - [[Time Complexity]]
+6) functions -[[Functions]]
+7) oop- [[OOP-object oriented programming]]
+8) numpy-[[Numpy]]
+9) file handling-[[File Handling]]
+10) exceptions handling -[[Exceptions Handling]]
+11) iterator and generator-[[Iterator and Generator]]
+12) namespace & decorator-[[Namespace & Decorator]]
+13) pandas-[[Pandas]]
+14) advance pandas-[[Advance Pandas]]
+15) git and github-[[Git And Github]]
+16)  data  analysis-[data analysis ](C:\Users\RAHUL\cse-notes\python\DATA analysis)

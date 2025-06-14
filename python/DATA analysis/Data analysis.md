@@ -1,0 +1,7 @@
+1) data gathering -[[Data Gathering]]
+2) import - [[From Json and sql]] [[From Excel  and text]]
+3) export - [[Export]]
+4) eda-[[EDA]]
+5) etl-[[ETL]]
+6) data assessing and cleaning -[[Data assessing and cleaning]]
+7) scrapping -[[Scrapping-beautifulsoup]]
