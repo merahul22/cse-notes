@@ -95,10 +95,14 @@
             "id": "ddf571722ae7c24f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "SQL/WINDOW FUNCTIONS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WINDOW FUNCTIONS"
             }
           }
         ],
@@ -252,6 +256,7 @@
   },
   "active": "ddf571722ae7c24f",
   "lastOpenFiles": [
+    "SQL/WINDOW FUNCTIONS.md",
     "python/Python.md",
     "python/Markdown.md",
     "SQL/DML.md",
@@ -280,7 +285,6 @@
     "python/DATA analysis",
     "python/Advance Pandas.md",
     "python/Pandas.md",
-    "python/Git And Github.md",
     "python",
     "Assets/Types8os.webp",
     "Assets/types-7-(1)os.webp",
