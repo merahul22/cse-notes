@@ -97,16 +97,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/WINDOW FUNCTIONS.md",
+                "file": "CHATGPT For DS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WINDOW FUNCTIONS"
+              "title": "CHATGPT For DS"
+            }
+          },
+          {
+            "id": "7d19a937e10e6e19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/ELASTICnet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ELASTICnet"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -254,37 +268,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ddf571722ae7c24f",
+  "active": "7d19a937e10e6e19",
   "lastOpenFiles": [
+    "ML/Lasso.md",
+    "ML/ELASTICnet.md",
+    "ML/Ridge Regression.md",
+    "ML/Wrapper method.md",
+    "ML/Filter Method.md",
+    "ML/Gradient Descent.md",
+    "ML/Regression analysis.md",
+    "ML/Multiple linear regression.md",
+    "ML/Linear regression.md",
+    "Untitled",
+    "ML/CHATGPT For DS.md",
+    "ML",
+    "Data stastics/Probablity.md",
+    "Data stastics/data statistics.md",
+    "SQL/SQL.md",
+    "Data stastics",
+    "SQL/Normalisation and ER diag.md",
+    "SQL/DataTypes in sql.md",
+    "SQL/EDA (SQL).md",
+    "SQL/Data cleaning.md",
+    "SQL/String functions.md",
+    "SQL/window function -numericals.md",
     "SQL/WINDOW FUNCTIONS.md",
     "python/Python.md",
     "python/Markdown.md",
     "SQL/DML.md",
     "SQL/DDL.md",
     "SQL/Installations.md",
-    "SQL/SQL.md",
     "DDL.md",
-    "python/DATA analysis/Data analysis.md",
-    "SQL/BASICS.md",
-    "CompilerDesign/Compiler Design.md",
-    "CompilerDesign/Symbol Table.md",
-    "CompilerDesign/Code Optimization.md",
-    "CompilerDesign/Error Detection & recover.md",
-    "CompilerDesign/Untitled.md",
     "Advance Pandas.pdf",
-    "python/DATA analysis/EDA.md",
     "SQL",
-    "python/DATA analysis/ETL.md",
-    "python/DATA analysis/Data assessing and cleaning.md",
-    "python/DATA analysis/Scrapping-beautifulsoup.md",
-    "python/DATA analysis/Export.md",
-    "python/DATA analysis/From Json and sql.md",
-    "python/DATA analysis/From Excel  and text.md",
-    "python/DATA analysis/Data Gathering.md",
-    "python/Dictionary.md",
-    "python/DATA analysis",
-    "python/Advance Pandas.md",
-    "python/Pandas.md",
+    "DATA analysis",
     "python",
     "Assets/Types8os.webp",
     "Assets/types-7-(1)os.webp",
@@ -298,9 +315,6 @@
     "Assets/Device-Managementos.webp",
     "OS",
     "SymbolTableCD.pdf",
-    "Midsem-Theory.pdf",
-    "midsem-numerical.pdf",
-    "ErrorDetection&recoverCD.pdf",
-    "Code Optimization.pdf"
+    "Midsem-Theory.pdf"
   ]
 }
